@@ -1,0 +1,15 @@
+img{
+    max-width: 100%;
+}
+#header_area{
+    padding: 20px 0;
+}
+#header_area a{
+    list-style: none;
+    text-decoration: none;
+}
+#header_area .logo h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #121212;
+}

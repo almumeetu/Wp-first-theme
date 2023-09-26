@@ -12,7 +12,17 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
+<div id="header_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#" class="logo"> 
+                    <h3>Saikat ..</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php wp_footer(); ?>
 </body>
