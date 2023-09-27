@@ -21,32 +21,7 @@
                 </a>
             </div>
             <div class="col-md-9">
-                <ul id="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Media</a></li>
-                    <li><a href="">Download</a></li>
-                    <li><a href="">Service</a>
-                        <ul>
-                            <li><a href="">Dropdown</a></li>
-                            <li><a href="">Dropdown</a></li>
-                            <li><a href="">Dropdown</a></li>
-                            <li><a href="">Dropdown</a>
-                                 <ul>
-                                    <li><a href="">Dropdown Menu</a></li>
-                                    <li><a href="">Dropdown Menu</a></li>
-                                    <li><a href="">Dropdown Menu</a></li>
-                                    <li><a href="">Dropdown Menu</a></li>
-                                    <li><a href="">Dropdown Menu</a></li>
-                                 </ul>
-                            </li>
-                            <li><a href="">Dropdown</a></li>
-                            <li><a href="">Dropdown</a></li>
-                            <li><a href="">Dropdown</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+                <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav') ); ?>
             </div>
         </div>
     </div>
