@@ -25,3 +25,14 @@ function saikat_css_js_file_calling() {
     wp_enqueue_script( 'main', get_template_directory_uri().'/js/main.js', array(), '5.0.2', 'true');
 }
 add_action('wp_enqueue_scripts', 'saikat_css_js_file_calling');
+
+
+//Theme Function 
+function saikat_customizar_register($wp_customize) {
+    $wp_customize->add_section('saikat_header_area', array( 
+        'title' =>__('Header Area', 'almumeetu'),
+        'description' => 'If you interested to update your header area, You can do it here.'
+    ));
+
+    $wp_customize->add_setting('saikat_logo')
+}
