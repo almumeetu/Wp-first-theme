@@ -34,5 +34,16 @@ function saikat_customizar_register($wp_customize) {
         'description' => 'If you interested to update your header area, You can do it here.'
     ));
 
-    $wp_customize->add_setting('saikat_logo')
+    $wp_customize->add_setting('saikat_logo', array( 
+        'default' => get_bloginfo('template_directory') . '/img/Saikat.png',
+    ));
+
+    $wp_customize-> add_control(new WP_Customize_Image_Control($wp_customize, 'saikat_logo', array( 
+        'label' => 'Logo Upload',
+        'description' => 'If you interested change or upload your logo, You can do it here.',
+        'setting' => 'saikat_logo',
+        'section' => 'saikat_header_area',
+    ) ));
 }
+
+add_action('customize_register', 'saikat_customizar_register');
