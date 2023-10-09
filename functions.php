@@ -64,7 +64,14 @@ function saikat_customizar_register($wp_customize) {
     ) ));
 
     //Menu Position Option
-    $wp_customize->add_section('saikat_menu_option')
+    $wp_customize->add_section('saikat_menu_option', array( 
+        'title' => __('Menu Position Option', 'almumeetu'),
+        'description' => 'If you interested to change your menu position you can do it.'
+    ));
+
+    $wp_customize->add_setting('saikat_menu_position', array( 
+        'default' => 'right_menu',
+    ));
 }
 
 add_action('customize_register', 'saikat_customizar_register');
