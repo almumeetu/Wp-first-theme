@@ -72,6 +72,20 @@ function saikat_customizar_register($wp_customize) {
     $wp_customize->add_setting('saikat_menu_position', array( 
         'default' => 'right_menu',
     ));
+
+    $wp_customize-> add_control('saikat_menu_position', array( 
+        'label' => 'Menu Position',
+        'description' => 'Select Your Menu Position',
+        'setting' => 'saikat_menu_position',
+        'section' => 'saikat_menu_option',
+        'type' => 'radio',
+        'choices' => array( 
+            'left_menu' => 'Left Menu',
+            'right_menu' => 'Right Menu',
+            'center_menu' => 'Center Menu',
+        ),
+        
+    ));
 }
 
 add_action('customize_register', 'saikat_customizar_register');
