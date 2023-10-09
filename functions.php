@@ -44,6 +44,9 @@ add_action('wp_enqueue_scripts', 'saikat_add_google_fonts');
 //Theme Function 
 function saikat_customizar_register($wp_customize) {
     
+
+    // Header Area
+
     $wp_customize->add_section('saikat_header_area', array( 
         'title' =>__('Header Area', 'almumeetu'),
         'description' => 'If you interested to update your header area, You can do it here.'
@@ -59,6 +62,9 @@ function saikat_customizar_register($wp_customize) {
         'setting' => 'saikat_logo',
         'section' => 'saikat_header_area',
     ) ));
+
+    //Menu Position Option
+    $wp_customize->add_section('saikat_menu_option')
 }
 
 add_action('customize_register', 'saikat_customizar_register');
