@@ -85,6 +85,7 @@ function saikat_customizar_register($wp_customize) {
             'center_menu' => 'Center Menu',
         ),
         
+        
     ));
 }
 
