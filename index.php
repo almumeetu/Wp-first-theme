@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="#"> 
+                <a href="<?php echo home_url(); ?>"> 
                     <img src="<?php echo get_theme_mod('saikat_logo'); ?>"alt="">
                 </a>
             </div>

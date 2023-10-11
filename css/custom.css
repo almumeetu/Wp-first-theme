@@ -30,6 +30,7 @@ img {
 #header_area .col-md-3 img {
     height: 100px;
     width: 200px;
+    margin-bottom: 10px;
 }
 
 #header_area .col-md-9 ul {
