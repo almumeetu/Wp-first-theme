@@ -87,7 +87,6 @@ function saikat_customizar_register($wp_customize) {
         
         
     ));
-}
 
     // Footer Option
     $wp_customize->add_section('saikat_footer_option', array( 
@@ -100,19 +99,12 @@ function saikat_customizar_register($wp_customize) {
         'default' => '&copy; Copyright 2023 | Al Mumeetu Saikat',
     ));
 
-    $wp_customize-> add_control('saikat_menu_position', array( 
-        'label' => 'Menu Position',
-        'description' => 'Select Your Menu Position',
-        'setting' => 'saikat_menu_position',
-        'section' => 'saikat_menu_option',
-        'type' => 'radio',
-        'choices' => array( 
-            'left_menu' => 'Left Menu',
-            'right_menu' => 'Right Menu',
-            'center_menu' => 'Center Menu',
-        ),
-        
-        
+    $wp_customize-> add_control('saikat_copyright_section', array( 
+        'label' => 'Copyright Text',
+        'description' => 'If need you can update your copyright text from here',
+        'setting' => 'saikat_copyright_section',
+        'section' => 'saikat_footer_option',
+       
     ));
 }
 

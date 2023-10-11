@@ -44,12 +44,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p></p>
+                    <p><?php echo get_theme_mod('saikat_copyright_section'); ?></p>
                 </div>
             </div>
         </div>
     </section>
 </footer>
+
+
 <?php wp_footer(); ?>
 </body>
 </html>
