@@ -62,6 +62,8 @@ function saikat_customizar_register($wp_customize) {
         'setting' => 'saikat_logo',
         'section' => 'saikat_header_area',
     ) ));
+    
+   
 
     //Menu Position Option
     $wp_customize->add_section('saikat_menu_option', array( 
@@ -84,8 +86,6 @@ function saikat_customizar_register($wp_customize) {
             'right_menu' => 'Right Menu',
             'center_menu' => 'Center Menu',
         ),
-        
-        
     ));
 
     // Footer Option

@@ -24,14 +24,28 @@ img {
    Header Area Style
   ========================================*/
 
-#header_area {
-    padding: 15px 0;
+#notice {
+    background: #ff6b6b;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+#notice p{
+    margin: 0;
+}
+
+#header_area {
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
 #header_area .col-md-3 img {
     height: 100px;
     width: 250px;
     margin-bottom: 10px;
-} 
+}
 
 #header_area .col-md-9 ul {
     font-family: "Oswald", sans-serif;
@@ -45,6 +59,7 @@ img {
     display: inline-block;
     position: relative;
 }
+
 /* #header_area .col-md-9 ul li span {
     display: block;
     font-size: 13px;
@@ -140,27 +155,32 @@ img {
   Menu Position
 =========================================*/
 
-#header_area.left_menu .col-md-3{
+#header_area.left_menu .col-md-3 {
     order: 2;
 }
-#header_area.left_menu .col-md-9{
+
+#header_area.left_menu .col-md-9 {
     order: 1;
 }
-#header_area.left_menu .col-md-9 ul{
+
+#header_area.left_menu .col-md-9 ul {
     text-align: left;
 }
 
-#header_area.center_menu .col-md-3{
+#header_area.center_menu .col-md-3 {
     width: 100%;
     text-align: center;
 }
-#header_area.center_menu .col-md-9{
+
+#header_area.center_menu .col-md-9 {
     width: 100%;
 }
-#header_area.center_menu .col-md-9 ul{
+
+#header_area.center_menu .col-md-9 ul {
     text-align: center;
 }
-#header_area.center_menu .col-md-9 ul ul{
+
+#header_area.center_menu .col-md-9 ul ul {
     text-align: left;
 }
 
@@ -173,16 +193,18 @@ img {
     padding: 20px 0;
     color: #fff;
     text-align: center;
-  }
-  #copyright_area p {
+}
+
+#copyright_area p {
     margin: 0;
     color: #fff;
     font-size: 15px;
-  }
-  #copyright_area p a {
+}
+
+#copyright_area p a {
     color: #ea1a70;
-  }
-  #copyright_area p a:hover {
+}
+
+#copyright_area p a:hover {
     text-decoration: underline;
-  }
-  
+}
