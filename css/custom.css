@@ -3,6 +3,7 @@
 ========================================*/
 body {
     font-family: "Kaisei Decol", serif;
+    font-size: 15px;
 }
 
 h1,
@@ -44,11 +45,17 @@ img {
     display: inline-block;
     position: relative;
 }
+/* #header_area .col-md-9 ul li span {
+    display: block;
+    font-size: 13px;
+    font-family: "Kaisei Decol", serif;
+} */
 
 #header_area .col-md-9 ul li a {
     color: #262626;
     padding: 10px 11px;
     display: block;
+    font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
 }
