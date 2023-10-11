@@ -12,17 +12,11 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+
 <header id="header_area" class="<?php echo get_theme_mod('saikat_menu_position'); ?>">
 
-    <div id="notice">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Some Notification</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-3">
@@ -35,4 +29,6 @@
             </div>
         </div>
     </div>
+
+
 </header>

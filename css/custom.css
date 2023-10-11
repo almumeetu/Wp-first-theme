@@ -20,25 +20,21 @@ img {
     max-width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
 /*=======================================
    Header Area Style
   ========================================*/
-
-#notice {
-    background: #ff6b6b;
-    padding: 10px 0;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-#notice p{
-    margin: 0;
-}
-
 #header_area {
-    padding-top: 0px;
-    padding-bottom: 15px;
+    padding: 15px 0;
 }
 
 #header_area .col-md-3 img {
@@ -151,6 +147,18 @@ img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*==========================================
   Menu Position
 =========================================*/
@@ -185,6 +193,33 @@ img {
 }
 
 
+
+
+
+
+
+
+
+
+
+/*=======================================
+   Index Page Style
+========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===========================================
   Copyright Area Styling
 ===========================================*/
@@ -207,4 +242,4 @@ img {
 
 #copyright_area p a:hover {
     text-decoration: underline;
-} 
+}
