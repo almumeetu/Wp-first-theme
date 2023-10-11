@@ -6,6 +6,7 @@ body {
     font-size: 15px;
     line-height: 1.5em;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -60,7 +61,6 @@ img {
 #header_area .col-md-9 ul li {
     display: inline-block;
     position: relative;
-    font-family: "Oswald", sans-serif;
 }
 
 /* #header_area .col-md-9 ul li span {
@@ -211,19 +211,60 @@ img {
 /*=======================================
    Index Page Style
 ========================================*/
-#body_area{
+#body_area {
     padding: 45px 0;
-    
+
 }
-#body_area .blog_area{
+
+#body_area .blog_area {
     width: 100%;
     margin-bottom: 15px;
 
 }
-#body_area{
-    padding: 45px 0;
+
+#body_area .post_thumb {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
 
 }
+
+#body_area .post_thumb img {
+    transition: .5s;
+    width: 100%;
+    display: block;
+
+}
+
+#body_area .post_thumb img:hover {
+    transform: scale(1.1);
+
+}
+
+#body_area .post_details {
+    width: 100%;
+
+}
+
+#body_area .post_details h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+#body_area .post_details h2 a{
+    color: #262626;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+#body_area .post_details h2 a:hover{
+    color: #ea1a70;
+
+}
+
 
 
 
