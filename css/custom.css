@@ -2,8 +2,14 @@
  Common CSS
 ========================================*/
 body {
-    font-family: "Kaisei Decol", serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    line-height: 1.5em;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
 }
 
 h1,
@@ -54,6 +60,7 @@ img {
 #header_area .col-md-9 ul li {
     display: inline-block;
     position: relative;
+    font-family: "Oswald", sans-serif;
 }
 
 /* #header_area .col-md-9 ul li span {
@@ -66,6 +73,7 @@ img {
     color: #262626;
     padding: 10px 11px;
     display: block;
+    font-family: "Oswald", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
@@ -200,12 +208,22 @@ img {
 
 
 
-
-
 /*=======================================
    Index Page Style
 ========================================*/
+#body_area{
+    padding: 45px 0;
+    
+}
+#body_area .blog_area{
+    width: 100%;
+    margin-bottom: 15px;
 
+}
+#body_area{
+    padding: 45px 0;
+
+}
 
 
 
